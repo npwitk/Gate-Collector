@@ -10,9 +10,22 @@
 		959C4D602CC679DF005DC070 /* GateCollector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GateCollector.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		9520F7452CC68DE300897348 /* Exceptions for "GateCollector" folder in "GateCollector" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 959C4D5F2CC679DF005DC070 /* GateCollector */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		959C4D622CC679DF005DC070 /* GateCollector */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				9520F7452CC68DE300897348 /* Exceptions for "GateCollector" folder in "GateCollector" target */,
+			);
 			path = GateCollector;
 			sourceTree = "<group>";
 		};
@@ -255,6 +268,9 @@
 				DEVELOPMENT_TEAM = 5UTY23TYW4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GateCollector/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Gate Collector";
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -284,6 +300,9 @@
 				DEVELOPMENT_TEAM = 5UTY23TYW4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GateCollector/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Gate Collector";
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
